@@ -5,3 +5,5 @@ input =input note
 value=('ian')
 no upper case letters note 
 red bad yellow hey blue yay note 
+name=input('name')
+print('name')
