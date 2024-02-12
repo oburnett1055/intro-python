@@ -12,6 +12,6 @@ print('cheese')
 # the print out a sentence that says "hi my name is {user's name}. 
 # I wear size {shoeSize} and I'm {userAge} years old."
 
-#4. - what does the TypeError mean? 
+#4. - what does the TypeError mean? mismatch of data
 
-#5. - what does SyntaxError mean?
+#5. - what does SyntaxError mean? incorrect strting
