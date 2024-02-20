@@ -1,0 +1,11 @@
+Def=laundry=['cheeses','dogs','chips','cats','cars']
+
+print(laundry[3])
+
+input=PleaseInsertName=['name1','name2','name3']
+
+print(PleaseInsertName)
+
+to call a function example def cheese(cips='chips'
+                               print(cips)
+                               cheese)
