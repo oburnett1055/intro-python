@@ -20,3 +20,5 @@ def omartest(cheese,cat):
         print('hi welcom to my test')
 
 #tab is indent 
+        
+#camel snake pascale
