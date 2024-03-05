@@ -29,10 +29,21 @@
 
 # M = 'lobby'
 # B = 'basement'
-@@ -23,11 +29,14 @@
+'@@ -23,11 +29,14 @@'
 # 3 = 'workspace'
 # 4 = 'living quarters'
-(answer/clues input'or' function,print,elif,if,else,int,varibles,function call 'and check for errors'these are the tools needed to complete the task)
+
+'(answer/clues input or function,print,elif,if,else,int,varibles,function call and check for errors these are the tools needed to complete the task)'
+def elevatorSystem():
+    
+     floor=int(input('what is your floor'))
+     if floor==1:
+       print('going to floor 1')
+     else:
+        print('run')
+
+#elevatorSystem()
+
 #___________________________________________________________
 
 # 2. You have been hired by an amusement park to develop a program
@@ -48,4 +59,12 @@
 # conditions that they would like your program to check for. 
 
 # user must be atleast 5.2 or taller and atleast 14 years old or older 
-(answer/clue/age,height,<>=,if,else,input'or',function,function call 'and' print)
+
+'(answer/clue/age,height,<>=,if,else,input or,function,function call and print)'
+
+def rollertoaster(age,height):
+    age=int(input('what is your age'))
+    if age>=14 and height>=5.2:
+        print('say cheese')
+
+rollertoaster(14,5.2)
