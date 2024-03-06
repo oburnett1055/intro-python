@@ -38,7 +38,7 @@ def elevatorSystem():
     
      floor=int(input('what is your floor'))
      if floor==1:
-       print('going to floor 1')
+       print('going to floor 1')#after this use elif over and over again
      else:
         print('run')
 
@@ -62,9 +62,15 @@ def elevatorSystem():
 
 '(answer/clue/age,height,<>=,if,else,input or,function,function call and print)'
 
-def rollertoaster(age,height):
-    age=int(input('what is your age'))
-    if age>=14 and height>=5.2:
-        print('say cheese')
+def rollertoaster(height,age):
+    if height>=5.2 and age>=14:
+        print('say cheese for roller coaster 1')
+    elif height<5.2 and age>=14:
+        print('run away and go to roller coaster 2')
+    elif height<5.2 and age<14:
+        print('go to ride 3 please')
+    else:
+        print('why are you that tall')
 
-rollertoaster(14,5.2)
+
+rollertoaster(5.2,14)
