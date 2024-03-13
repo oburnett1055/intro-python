@@ -40,10 +40,19 @@
 # guests that they would like to check and admit
 # into the VIP room.
 
-VIP_Guests=(input('pleaase input your name'),["Bill", "Mary", "Dante", "Stacy", "Harry", "Ashley"])
-if [0,1,2,3,4,5]:
+#keywords
+#function
+#conditions
+#anguments
+VIP_Guests=["Bill", "Mary", "Dante", "Stacy", "Harry", "Ashley"]
+def vIP_Guests(name):
+  if name=="Bill":
       print('to the party')
-
+  elif name=="Marry":
+      print("welcome")
+  else:
+       print('i hate you Dante, Stacy and Ashley')
+vIP_Guests('Omar')   
 # You have been hired as an engineer to develop 
 # a discount rewards program for a store. 
 # The store would like your function to ask
@@ -78,6 +87,15 @@ def unknownFunction_B(data1, data2):
     else:
         print(" Error: somthing went wrong. Try again")
 
+def membershipdiscount():
+     name=input('name please')
+     membership=input('what mamber ship do you own ')
+     item=input('what your oder')
+     price=input('are you broke')
+     if membership=='gold':
+          discount=price*.25
+          newpriice=price-discount
+          print('yay,{name}"your {price} is complete)
 # Programming Questions
 # How do you think technology has influenced and
 # shaped how you learn in school? Do you think it's
