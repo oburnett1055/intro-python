@@ -75,10 +75,9 @@ vIP_Guests('Omar')
 # appropriate name. 
 
 def unknownFunction_A(data1, data2):
-    newData = data2 + 10
+    newData=data2 + 10
     print(f"hello, {data1}. Welcome to Boys Latin.")
-    print("by solving this, you have gotten"+ data2 "points added to your grade")
-
+    print("by solving this, you have gotten"{data2} 
 def unknownFunction_B(data1, data2):
     if data1 == "btp@gmail.com" and data2 == "abc123":
 	    print("Welcome, access granted.")
