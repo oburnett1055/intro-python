@@ -20,11 +20,13 @@
 # the steps you would've taken to solve this problem in complete sentences. 
 # This must be completed in order to get full credit.  
 def wordsandnumbers(words):
+
     if words==1:
         print(( "you have 1 character"))
     elif words==2:
         print(( '2 characters'    ))
-wordsandnumbers(2)
+#wordsandnumbers(2)
+
 
 def game(player1,player2):
     r='rock'
@@ -37,4 +39,9 @@ def game(player1,player2):
         print("i win")
     else:
         print("i    broke   your    hands")
-    game(b,p)
+    game(r,b)
+    #len()is a character counting tool example
+    #def word(cheese):
+        #print(len(cheese))
+#word(me)
+    #the random function prints out a random output based off the values you input example random.randrange() also i wasnt wrong it just wasnt the best opt next time use random 
