@@ -105,17 +105,21 @@ lightspeed()
 # sunday morning = oatmeal
 # sunday night = steak and spinach
     
-    def loseweight(time,day,feelings):
+def loseweight(time,day,feelings):
         input("good morning hows your day")
         if feelings=='bad':
             print('sorry')
         elif feelings=='good':
             print('no')
         if time=='morning' and day=='mon':
-            print
+            print('2eggs and a apple')
         elif day=='mon' and time=='afternoon':
-            print
-    
+            print('chicken and veggies')
+        if time=='morning' and day=='tue':
+            print('oatmeal and fruit')
+        elif day=='tue' and time=='afternoon':
+            print('chicken and kale')
+loseweight('tue','morning','good')
 
 # 9. You have been hired as an enineer to develop a school to develop an academic honors system.
 # the client would like to check if the user has gotten above an 85% overall grade or has

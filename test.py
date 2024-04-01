@@ -1,12 +1,15 @@
-def lightspeed(speedMPH):
-    if speedMPH>20:
-        print('shift to gerar 1')
-    elif speedMPH>30:
-        print('shift to gear 2')
-    elif speedMPH>40:
-        print('shift to gear 3')
-    elif speedMPH>70:
-        print('return to gear 1')
-    else:
-        print('nice driving')
-lightspeed(80)
+def loseweight(time,day,feelings):
+        input("good morning hows your day")
+        if feelings=='bad':
+            print('sorry')
+        elif feelings=='good':
+            print('no')
+        if time=='morning' and day=='mon':
+            print('2eggs and a apple')
+        elif day=='mon' and time=='afternoon':
+            print('chicken and veggies')
+        elif time=='morning' and day=='tue':
+            print('oatmeal and fruit')
+        elif day=='tue' and time=='afternoon':
+            print('chicken and kale')
+loseweight('tue','morning')
