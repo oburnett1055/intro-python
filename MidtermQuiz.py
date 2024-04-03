@@ -129,9 +129,32 @@ loseweight('tue','morning','good')
 # if they only scored above 85%, congratulate the user but inform them they did not make the list.
 # if none of the conditions are met, inform them to continue studying and try again next semester. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
-
+def honorscheck(grade,sat):
+    if grade >=85 and sat:
+        print('congrats you have made honors')
+    elif grade <85 and sat:
+        print('congrats on your sat howerver  you did not make honors ')
+    elif grade >=85 and not (sat):
+        print('congrats on your grade however you did not make honors')
+    elif grade < 85 and not(sat):
+        ('please try agian next year')
+honorscheck(60,False)
 # 10. Create a function that will check the temperature outside. If the user enters
 # a number above 60 degrees it is warm outside, if the enter a number above 80 degrees it is hot outside.
 # if the user enters a number below 50 degrees it is cold outside. and if the tempeature is above 50 degrees,
 # tell the user it's not warm but it's also not too cold. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
+
+#keyword 
+# conditiolns
+#<>
+#true/false
+
+def tempcheck():
+    temp=int(input('what is the temp outside'))
+    if temp<50:
+        print('its cold outside')
+    elif temp >=50 and temp <60:
+        print('its human')
+    elif temp >=60 and temp <80:
+        print('its warm outside')
