@@ -41,4 +41,11 @@ drivethru()
 
 
                                                                                               #today we used input alot with if and elif that helped combine a result in the 
-                                                                                              #function today
+                                                                                              #function today                         
+
+                                                                                              #assignment operator is math
+                                                                                             i=0
+                                                                                              while i<4:
+                                                                                                      print('cheewse')
+                                                                                                      i+=1
+
