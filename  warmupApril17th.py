@@ -23,7 +23,7 @@ for cats in cats:
 # generates a random number between 1 and 10
 #randomNumber = random.randint(1, 10)
 
-print('Random number value is: {randomNumber}')
+#rint('Random number value is: {randomNumber}')
 
 
 Guess= random.randint(1,10)
@@ -42,4 +42,39 @@ else:
     #i=int(input('guess')
 
     def aletters():
-        list=['a,b,'c']
+        lambdaist=['a','b','c','d']
+        for ist in range(0, len(lambdaist),5):
+            print(lambdaist[ist])
+
+#for i in range(0, len(a),2):
+
+
+
+        #The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+        #Python range() Function
+
+#ExampleGet your own Python Server
+#Create a sequence of numbers from 0 to 5, and print each item in the sequence:
+
+#x = range(6)
+#for n in x:
+#  print(n)
+#Definition and Usage
+#The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+#Syntax
+#range(start, stop, step)
+#Parameter Values
+#Parameter	Description
+#start	Optional. An integer number specifying at which position to start. Default is 0
+#stop	Required. An integer number specifying at which position to stop (not included).
+#step	Optional. An integer number specifying the incrementation. Default is 1
+
+
+def numbers():
+    e= range(30)
+    for apple in e:
+        print(apple*3)
+numbers()
+
