@@ -14,3 +14,7 @@
 #how will my app work
 
 #in the intro of the app it will ask you would you like to beggin.Then the app will ask you to input 4 personal traits of your choicing.The app app will then print your oder then ask if you would like to try again.The app will have a character limit of 10 characters. 
+
+
+
+
