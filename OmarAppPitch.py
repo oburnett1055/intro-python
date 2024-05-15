@@ -17,4 +17,5 @@
 
 
 
-
+#i will use len random and range than to make and rearange names and use replaced built in function with a list of the alphebet to replace the numbers with letters
+#i will use random shuffle for my app and 
